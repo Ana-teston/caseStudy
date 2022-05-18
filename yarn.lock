@@ -3084,7 +3084,7 @@
   dependencies:
     "fontfaceobserver" "^2.1.0"
 
-"expo-keep-awake@~10.1.1":
+"expo-keep-awake@^10.1.1", "expo-keep-awake@~10.1.1":
   "integrity" "sha512-9zC0sdhQljUeMr2yQ7o4kzEZXVAy82fFOAZE1+TwPL7qR0b0sphe7OJ5T1GX1qLcwuVaJ8YewaPoLSHRk79+Rg=="
   "resolved" "https://registry.npmjs.org/expo-keep-awake/-/expo-keep-awake-10.1.1.tgz"
   "version" "10.1.1"
@@ -5619,6 +5619,11 @@
     "use-subscription" ">=1.0.0 <1.6.0"
     "whatwg-fetch" "^3.0.0"
     "ws" "^6.1.4"
+
+"react-refresh@^0.13.0":
+  "integrity" "sha512-XP8A9BT0CpRBD+NYLLeIhld/RqG9+gktUjW1FkE+Vm7OCinbG1SshcK5tb9ls4kzvjZr9mOQc7HYgBngEyPAXg=="
+  "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.13.0.tgz"
+  "version" "0.13.0"
 
 "react-refresh@^0.4.0":
   "integrity" "sha512-Hwln1VNuGl/6bVwnd0Xdn1e84gT/8T9aYNL+HAKDArLCS7LWjwr7StE30IEYbIkx0Vi3vs+coQxe+SQDbGbbpA=="
