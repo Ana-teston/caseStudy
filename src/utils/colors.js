@@ -1,5 +1,5 @@
 export const colors = {
     white: `#fff`,
-    green: `#18A47A`,
-    progressBar: `rgba(50, 24, 164, 0.99)`,
+    green: `#FF4949`,
+    progressBar: `#FFCD38`,
 }

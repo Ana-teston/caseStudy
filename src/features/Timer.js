@@ -3,9 +3,9 @@ import { View, StyleSheet, Text, Vibration, Platform } from 'react-native';
 import { ProgressBar } from 'react-native-paper';
 import { useKeepAwake } from 'expo-keep-awake';
 
-import { colors} from "../utils/colors";
-import { spacing} from "../utils/Sizes";
-import { Countdown} from "../components/Countdown";
+import { colors } from "../utils/colors";
+import { spacing } from "../utils/Sizes";
+import { Countdown } from "../components/Countdown";
 import { RoundedButton} from "../components/RoundedButton";
 
 import { Timing } from './Timing';
@@ -53,7 +53,7 @@ export const Timer = ({ focusSubject, onTimerEnd, clearSubject }) => {
                 <Countdown
                     minutes={minutes}
                     isPaused={!isStarted}
-                    onProgress={onProgress}
+                    onProgress={setProgress}
                     onEnd={onEnd}
                 />
             </View>
@@ -64,7 +64,7 @@ export const Timer = ({ focusSubject, onTimerEnd, clearSubject }) => {
             <View style={{ paddingTop: spacing.xl }}>
                 <ProgressBar
                     progress={progress}
-                    color="#5E84E2"
+                    color="#FFCD38"
                     style={{ height: 10 }}
                 />
             </View>
@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
     buttonWrapper: {
         flex: 0.3,
         flexDirection: 'row',
-        padding: 15,
+        padding: 25,
         justifyContent: 'center',
         alignItems: 'center',
     },

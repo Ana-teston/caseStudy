@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     },
     textInput: {
         flex: 1,
-        marginRight: spacing.md,
+        marginRight: spacing.sm,
     },
     inputContainer: {
         padding: spacing.lg,

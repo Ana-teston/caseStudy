@@ -4,7 +4,7 @@ import { colors } from "../utils/colors";
 import { fontSizes, spacing } from "../utils/Sizes";
 
 export const FocusHistory = ({ history }) => {
-    if(!history || !history.length) return null;
+    if(!history || !history.length) return<Text style={styles.title}>Focus on anything yet! </Text>;
 
     const renderItem = ({item}) => <Text style={styles.item}> - {item}</Text>
 
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     item: {
         fontSize: fontSizes.md,
         color: colors.white,
-        padding: spacing.sm
+        paddingTop: spacing.sm
     },
 
     title: {
